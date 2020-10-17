@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void jumpToGame() {
         Intent intent = new Intent();
-        intent.setComponent(new ComponentName("com.oculus.sdk.vrcubeworldna", "com.oculus.sdk.vrcubeworldna.MainActivity"));
+        intent.setComponent(new ComponentName("com.facebook.arvr.quillplayer", "com.facebook.arvr.quillplayer.MainActivity"));
         startActivity(intent);
     }
 }
