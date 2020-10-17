@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LauncherTest</string>
+    <string name="btnJumpToAppText">Прыгаем в приложение</string>
+</resources>
