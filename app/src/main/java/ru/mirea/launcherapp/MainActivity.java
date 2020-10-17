@@ -33,7 +33,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void jumpToGame() {
         Intent intent = new Intent();
-        intent.setComponent(new ComponentName("com.facebook.arvr.quillplayer", "com.facebook.arvr.quillplayer.MainActivity"));
+        intent.setComponent(new ComponentName("com.dilmergames.handtrackingdemo", "com.unity3d.player.UnityPlayerActivity"));
+        finish();
         startActivity(intent);
+
     }
 }
